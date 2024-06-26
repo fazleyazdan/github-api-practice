@@ -16,6 +16,7 @@ on:
         type: boolean
       environment:
         description: 'Environment to run tests against'
+        default: dev
         type: environment
         required: true
 
